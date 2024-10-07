@@ -18,7 +18,8 @@ void main() {
 
     // Microsoft
     int a1 = 10, b1 = 20;
-    result = (a1 < b1) || (a1++ > 15) && (b1-- < 25);
+    // int abc = (10 + 5) + (2 * 5);
+    result = (a1 < b1) || ((a1++ > 15) && (b1-- < 25));
     System.out.println(result);
     System.out.println(STR."a=\{a1}");
     System.out.println(STR."a=\{b1}");
